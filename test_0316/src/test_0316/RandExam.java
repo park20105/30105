@@ -12,7 +12,7 @@ public class RandExam {
 		int n = sc.nextInt();
 		int b = 0;
 		for(int i=1; i<=n; i++) {
-			int a = rd.nextInt(20);
+			int a = rd.nextInt(6)+1;
 			System.out.println(i + "번째 숫자는 " + a + "입니다.");
 			b += a;
 		}
